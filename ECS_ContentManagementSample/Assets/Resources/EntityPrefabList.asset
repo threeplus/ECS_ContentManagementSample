@@ -26,7 +26,7 @@ MonoBehaviour:
         y: 1326820919
         z: 569179266
         w: 2714835878
-  - Name: RotationCubeScene
+  - Name: RotationCylinderScene
     GUID:
       Value:
         x: 609295055

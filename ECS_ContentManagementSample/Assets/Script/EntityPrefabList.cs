@@ -55,6 +55,7 @@ public class EntityPrefabList : ScriptableObject
             var guid = UnityEditor.AssetDatabase.GUIDFromAssetPath(UnityEditor.AssetDatabase.GetAssetPath(prefab));
             EntityPrefabs.Add(new PrefabGUID{Name = prefab.name, GUID = guid});
         }
+        UnityEditor.EditorUtility.SetDirty(this);
     }
     #endif
 

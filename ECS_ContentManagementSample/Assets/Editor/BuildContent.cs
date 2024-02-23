@@ -46,6 +46,8 @@ public class BuildContent : MonoBehaviour
         RemoteContentCatalogBuildUtility.PublishContent(tmpBuildFolder, publishFolder, f => {
             return new string[] { "all" };
         });
+
+        Debug.Log("Content Build Saved at " + publishFolder);
     }
 
 }
