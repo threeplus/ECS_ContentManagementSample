@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce748c28ab3d2d4a84804358d1ae141, type: 3}
+  m_Name: EntityPrefabList
+  m_EditorClassIdentifier: 
+  EditorScenes:
+  - {fileID: 102900000, guid: 7dfec1cf73ea51f428cfce126ab11d1a, type: 3}
+  - {fileID: 102900000, guid: fca115421b96674449aac85ebb0d3d4a, type: 3}
+  EditorEntityPrefab:
+  - {fileID: 2354508139361798485, guid: 36323b26ee6cd75449c65f1169b25151, type: 3}
+  - {fileID: 7331727046977524923, guid: 4b59554e339e0814fb9a236612735b06, type: 3}
+  EntityScenes:
+  - Name: RotationCapsuleScene
+    GUID:
+      Value:
+        x: 4229754839
+        y: 1326820919
+        z: 569179266
+        w: 2714835878
+  - Name: RotationCubeScene
+    GUID:
+      Value:
+        x: 609295055
+        y: 1148610993
+        z: 3851201172
+        w: 2765344955
+  EntityPrefabs:
+  - Name: RotationCapsule
+    GUID:
+      Value:
+        x: 1655907171
+        y: 1165870830
+        z: 301296788
+        w: 353708950
+  - Name: RotationCube
+    GUID:
+      Value:
+        x: 3830814132
+        y: 1098967347
+        z: 1714596287
+        w: 1622488865
